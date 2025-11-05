@@ -1,0 +1,21 @@
+{
+	"configurationName": "AGILEX_5",
+    "hardwareType": "FPGA", 
+    "prioritizeSpeedOptimization": false, 
+    "dspGroups": 1, 
+    "prioritizeMemoryOptimization": true,
+    "memoryLimitUnit": "KB",
+    "optimizeForParallelExecution": true,
+    "quantizedCalculations": true,
+    "bitsPerValue": 8,
+    "types": [
+        {
+            "name": "A5ED065B",
+            "computeCapability": 1015200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 10152,
+            "memoryLimit": 512,
+            "memoryLimitUnit": "KB"
+        }
+    ]
+}
