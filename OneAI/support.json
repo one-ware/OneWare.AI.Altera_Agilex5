@@ -3,7 +3,7 @@
 	"displayName": "Altera™ Agilex™ 5",
     "hardwareType": "FPGA", 
     "prioritizeSpeedOptimization": false, 
-    "dspGroups": 1, 
+    "dspGroups": 6, 
     "prioritizeMemoryOptimization": true,
     "memoryLimitUnit": "KB",
     "optimizeForParallelExecution": true,
