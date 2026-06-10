@@ -17,6 +17,14 @@
             "dspBlocks": 10152,
             "memoryLimit": 512,
             "memoryLimitUnit": "KB"
+        },
+		{
+            "name": "A5E065B",
+            "computeCapability": 406080,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 3384,
+            "memoryLimit": 4781,
+            "memoryLimitUnit": "KB"
         }
     ]
 }
