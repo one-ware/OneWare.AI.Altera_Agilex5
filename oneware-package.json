@@ -40,6 +40,15 @@
             "url": "https://github.com/one-ware/OneWare.AI.Altera_AGILEX5/releases/download/1.1/OneWare.AI.Altera_AGILEX5-1.1-all.zip"
           }
         ]
+      },
+      {
+        "version": "1.2",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/one-ware/OneWare.AI.Altera_AGILEX5/releases/download/1.1/OneWare.AI.Altera_AGILEX5-1.1-all.zip"
+          }
+        ]
       }
     ]
   }

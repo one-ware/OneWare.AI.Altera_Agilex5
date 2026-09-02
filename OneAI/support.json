@@ -1,29 +1,325 @@
 {
-	"configurationName": "ALTERA_AGILEX_5",
-	"displayName": "Altera™ Agilex™ 5",
-    "hardwareType": "FPGA", 
-    "prioritizeSpeedOptimization": false, 
-    "dspGroups": 6, 
-    "prioritizeMemoryOptimization": true,
-    "memoryLimitUnit": "KB",
-    "optimizeForParallelExecution": true,
-    "quantizedCalculations": true,
+    "configurationName": "ALTERA_AGILEX_5",
+    "displayName": "Altera™ Agilex™ 5",
+    "hardwareType": "FPGA",
+    "prioritizeSpeedOptimization": "false",
+    "dspGroups": 6,
+    "prioritizeMemoryOptimization": "false",
+    "memoryLimitUnit": "MB",
+    "optimizeForParallelExecution": "true",
+    "quantizedCalculations": "true",
     "bitsPerValue": 8,
     "types": [
         {
-            "name": "A5ED065B",
-            "computeCapability": 1015200,
+            "name": "A5Ex005BB15A",
+            "computeCapability": 9750,
             "computeCapabilityUnit": "MOPS",
-            "dspBlocks": 10152,
-            "memoryLimit": 512,
+            "dspBlocks": 65,
+            "memoryLimit": 382,
             "memoryLimitUnit": "KB"
         },
-		{
-            "name": "A5E065B",
-            "computeCapability": 406080,
+        {
+            "name": "A5Ex005BB23B",
+            "computeCapability": 9750,
             "computeCapabilityUnit": "MOPS",
-            "dspBlocks": 3384,
-            "memoryLimit": 4781,
+            "dspBlocks": 65,
+            "memoryLimit": 382,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex007BB15A",
+            "computeCapability": 14100,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 94,
+            "memoryLimit": 526,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex007BB23B",
+            "computeCapability": 14100,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 94,
+            "memoryLimit": 526,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex008BB23B",
+            "computeCapability": 17400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 116,
+            "memoryLimit": 694,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013BB23B",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex008BB23A",
+            "computeCapability": 17400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 116,
+            "memoryLimit": 694,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex008BB32A",
+            "computeCapability": 17400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 116,
+            "memoryLimit": 694,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex008BM16A",
+            "computeCapability": 17400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 116,
+            "memoryLimit": 694,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013AB23A",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013AB32A",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013BB23A",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013BB32A",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex013BM16A",
+            "computeCapability": 28200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 188,
+            "memoryLimit": 1052,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex043AB23A",
+            "computeCapability": 84600,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 564,
+            "memoryLimit": 3076,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex043BB23A",
+            "computeCapability": 84600,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 564,
+            "memoryLimit": 3076,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex052AB23A",
+            "computeCapability": 101400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 676,
+            "memoryLimit": 3788,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex052BB23A",
+            "computeCapability": 101400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 676,
+            "memoryLimit": 3788,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex065AB23A",
+            "computeCapability": 126900,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 846,
+            "memoryLimit": 4780,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex065BB23A",
+            "computeCapability": 126900,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 846,
+            "memoryLimit": 4780,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex005BB18A",
+            "computeCapability": 9750,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 65,
+            "memoryLimit": 382,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex007BB18A",
+            "computeCapability": 14100,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 94,
+            "memoryLimit": 526,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex043AB32A",
+            "computeCapability": 84600,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 564,
+            "memoryLimit": 3076,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex043BB32A",
+            "computeCapability": 84600,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 564,
+            "memoryLimit": 3076,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex052AB32A",
+            "computeCapability": 101400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 676,
+            "memoryLimit": 3788,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex052BB32A",
+            "computeCapability": 101400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 676,
+            "memoryLimit": 3788,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex065AB32A",
+            "computeCapability": 126900,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 846,
+            "memoryLimit": 4780,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex065BB32A",
+            "computeCapability": 126900,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 846,
+            "memoryLimit": 4780,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028AB23A",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028AB32A",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028BB23A",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028BB23B",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028BB32A",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Ex028BM16A",
+            "computeCapability": 56400,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 376,
+            "memoryLimit": 2104,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Dx051xB32B",
+            "computeCapability": 220800,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1472,
+            "memoryLimit": 6900,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Dx064x",
+            "computeCapability": 276000,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1840,
+            "memoryLimit": 8656,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Dx110xB37A",
+            "computeCapability": 497250,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 3315,
+            "memoryLimit": 14426,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Dx130xB37A",
+            "computeCapability": 579600,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 3864,
+            "memoryLimit": 17316,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "A5Dx160xB37A",
+            "computeCapability": 745200,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 4968,
+            "memoryLimit": 21646,
             "memoryLimitUnit": "KB"
         }
     ]
