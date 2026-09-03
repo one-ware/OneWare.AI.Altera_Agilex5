@@ -46,7 +46,7 @@
         "targets": [
           {
             "target": "all",
-            "url": "https://github.com/one-ware/OneWare.AI.Altera_AGILEX5/releases/download/1.1/OneWare.AI.Altera_AGILEX5-1.2-all.zip"
+            "url": "https://github.com/one-ware/OneWare.AI.Altera_AGILEX5/releases/download/1.2/OneWare.AI.Altera_AGILEX5-1.2-all.zip"
           }
         ]
       }
